@@ -1,0 +1,5 @@
+name: Drush Display Fields
+description: Provides field utilities and commands for Drush
+type: module
+package: Drush
+core: 8.x

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains drush_display_fields.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drush_display_fields_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the cnbc_field_utilities module.
+    case 'help.page.drush_display_fields':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides field utilities and commands for Drush') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "org/drush_display_fields",
+  "description": "This extension provides new commands for bulk modifying displayed fields with Drush.",
+  "type": "drupal-drush",
+  "authors": [
+    {
+      "name": "Jeff Wax",
+      "email": "jwax@phase2technology.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  }
+}

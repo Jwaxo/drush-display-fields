@@ -1,0 +1,6 @@
+services:
+  drush_display_fields.commands:
+    class: \Drupal\drush_display_fields\Commands\DrushDisplayFieldsCommands
+    arguments: ['@entity_type.bundle.info']
+    tags:
+      - { name: drush.command }
