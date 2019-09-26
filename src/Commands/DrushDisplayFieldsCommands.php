@@ -24,7 +24,7 @@ class DrushDisplayFieldsCommands extends DrushCommands {
   protected $bundleInfo;
 
   /**
-   * CnbcFieldUtilitiesCommands constructor.
+   * DrushDisplayFields constructor.
    *
    * @param \Drupal\Core\Entity\EntityTypeBundleInfo $entity_type_bundle_info
    *   Bundle Info Manager.
